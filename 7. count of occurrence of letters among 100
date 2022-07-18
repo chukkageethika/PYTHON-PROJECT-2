@@ -1,0 +1,24 @@
+RandomCharacter.py
+
+import string 
+import random
+random_list =[]
+def getRandomLowerCaseLetter():
+   
+    for i in range(100):
+        random_list.append(random.choice(string.ascii_lowercase))
+   
+    return random_list
+    
+count.py
+
+from  RandomCharacter import  *
+c=[]
+
+alpha = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+
+k=getRandomLowerCaseLetter(9)
+print(k)
+for i in range(len(alpha)):
+    c.append(k.count(alpha[i]))
+print(c)
