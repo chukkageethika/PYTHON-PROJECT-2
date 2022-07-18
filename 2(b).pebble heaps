@@ -1,0 +1,12 @@
+x=int(input('enter number of pebble heaps:'))
+n1=x
+if(x%2==0):
+    for i in range(x):
+        i=x
+        print(i)
+        x=x+2
+else:  
+    for i in range(x):
+        i=x
+        print(i)
+        x=x+2
